@@ -13,8 +13,7 @@
 
 body {
   font-family: "Roboto", sans-serif;
-  color: var(--title-text-color);
-  background-color: var(--primary-color-pages);
+  color: var(--primary-text-color);
 }
 
 .list {
@@ -30,25 +29,27 @@ body {
   font-style: normal;
   font-weight: 800;
   font-size: 18px;
-  line-height: 1.33;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
   text-transform: uppercase;
-  color: var(--title-text-color);
+  color: #4d5ae5;
   text-decoration: none;
 }
 
-.fpart-logo {
-  color: #4d5ae5;
+.spart-logo {
+  color: var(--title-text-color);
 }
 
 .site-nav .link {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
+  letter-spacing: 0.02em;
   color: var(--title-text-color);
   text-decoration: none;
 }
 
-.auth-nav {
+.address {
   font-style: normal;
 }
 
@@ -56,55 +57,66 @@ body {
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
-  color: var(--primary-text-color);
   text-decoration: none;
 }
 
 .site-nav-link:hover,
 .site-nav-link:focus {
-  color: #404BBF;
+  color: #404bbf;
 }
 
 .hero {
+  text-align: center;
+  background-color: var(--title-text-color);
+}
+
+.hero-title {
   font-weight: 700;
   font-size: 56px;
   line-height: 1.07;
-  text-align: center;
+  letter-spacing: 0.02em;
   color: #ffffff;
-  background-color: #2e2f42;
 }
 
 .hero-button {
+  font-family: "Roboto", sans-serif;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
+  letter-spacing: 0.04em;
   align-items: center;
   color: #ffffff;
   background-color: #4d5ae5;
+  cursor: pointer;
 }
 
 .hero-button:hover,
 .hero-button:focus {
-  background-color: #404BBF;;
+  background-color: #404bbf;
+}
+
+.benefits-title {
 }
 
 .title {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
+  letter-spacing: 0.02em;
 }
 
 .text {
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
-  color: var(--primary-text-color);
+  letter-spacing: 0.02em;
 }
 
 .section-title {
   font-weight: 700;
   font-size: 36px;
   line-height: 1.11;
+  letter-spacing: 0.02em;
   text-align: center;
   text-transform: capitalize;
 }
@@ -114,7 +126,7 @@ body {
 }
 
 .footer {
-  background-color: #2e2f42;
+  background-color: var(--title-text-color);
   color: #e7e9fc;
 }
 
@@ -136,16 +148,21 @@ body {
 }
 
 .filter-button {
+  font-family: "Roboto", sans-serif;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
+  letter-spacing: 0.04em;
   color: #4d5ae5;
   background-color: #f4f4fd;
+  text-decoration: none;
+  cursor: pointer;
 }
 
 .work-list-example {
   text-decoration: none;
   color: var(--title-text-color);
+  text-decoration: none;
 }
 
 .filter-button:hover,
