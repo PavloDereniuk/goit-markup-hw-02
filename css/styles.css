@@ -1,0 +1,155 @@
+/* колір тексту абзаців SLATE #434455 */
+/* колір тексту заголовків NAVY BLUE #2E2F42 */
+/* колір заголовка героя #FFFFFF */
+/* основний колір сторінки #E5E5E5 */
+/* #F4F4FD */
+/*  */
+
+:root {
+  --primary-text-color: #434455;
+  --title-text-color: #2e2f42;
+  --primary-color-pages: #e5e5e5;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  color: var(--title-text-color);
+  background-color: var(--primary-color-pages);
+}
+
+.list {
+  list-style: none;
+}
+
+.header {
+  background-color: #ffffff;
+}
+
+.logo {
+  font-family: "Raleway", sans-serif;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.33;
+  text-transform: uppercase;
+  color: var(--title-text-color);
+  text-decoration: none;
+}
+
+.fpart-logo {
+  color: #4d5ae5;
+}
+
+.site-nav .link {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  color: var(--title-text-color);
+  text-decoration: none;
+}
+
+.auth-nav {
+  font-style: normal;
+}
+
+.auth-nav-link {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  color: var(--primary-text-color);
+  text-decoration: none;
+}
+
+.site-nav-link:hover,
+.site-nav-link:focus {
+  color: #404BBF;
+}
+
+.hero {
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 1.07;
+  text-align: center;
+  color: #ffffff;
+  background-color: #2e2f42;
+}
+
+.hero-button {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  align-items: center;
+  color: #ffffff;
+  background-color: #4d5ae5;
+}
+
+.hero-button:hover,
+.hero-button:focus {
+  background-color: #404BBF;;
+}
+
+.title {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+}
+
+.text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  color: var(--primary-text-color);
+}
+
+.section-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.11;
+  text-align: center;
+  text-transform: capitalize;
+}
+
+.team {
+  background-color: #f4f4fd;
+}
+
+.footer {
+  background-color: #2e2f42;
+  color: #e7e9fc;
+}
+
+.logo-footer {
+  color: #f4f4fd;
+}
+
+.text-footer {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #e7e9fc;
+}
+
+/* Портфоліо */
+
+.filter {
+  text-align: center;
+}
+
+.filter-button {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #4d5ae5;
+  background-color: #f4f4fd;
+}
+
+.work-list-example {
+  text-decoration: none;
+  color: var(--title-text-color);
+}
+
+.filter-button:hover,
+.filter-button:focus {
+  color: #ffffff;
+  background-color: #404bbf;
+}
