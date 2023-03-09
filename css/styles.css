@@ -1,32 +1,21 @@
-/* колір тексту абзаців SLATE #434455 */
-/* колір тексту заголовків NAVY BLUE #2E2F42 */
-/* колір заголовка героя #FFFFFF */
-/* основний колір сторінки #E5E5E5 */
-/* #F4F4FD */
-/*  */
-
 :root {
   --primary-text-color: #434455;
   --title-text-color: #2e2f42;
-  --primary-color-pages: #e5e5e5;
+  --white-text-color: #ffffff; 
 }
 
 body {
   font-family: "Roboto", sans-serif;
   color: var(--primary-text-color);
+  background-color: #ffffff
 }
 
 .list {
   list-style: none;
 }
 
-.header {
-  background-color: #ffffff;
-}
-
 .logo {
   font-family: "Raleway", sans-serif;
-  font-style: normal;
   font-weight: 800;
   font-size: 18px;
   line-height: 1.17;
@@ -58,8 +47,8 @@ body {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
+  color: var(--primary-text-color);
   text-decoration: none;
-  color: #434455;
 }
 
 .site-nav-link:hover,
@@ -77,7 +66,7 @@ body {
   font-size: 56px;
   line-height: 1.07;
   letter-spacing: 0.02em;
-  color: #ffffff;
+  color: var(--white-text-color);
 }
 
 .hero-button {
@@ -86,8 +75,7 @@ body {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.04em;
-  align-items: center;
-  color: #ffffff;
+  color: var(--white-text-color);
   background-color: #4d5ae5;
   cursor: pointer;
 }
@@ -97,15 +85,12 @@ body {
   background-color: #404bbf;
 }
 
-.benefits-title {
-}
-
 .title {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
-  color: #2e2f42;
+  color: var(--title-text-color);
 }
 
 .text {
@@ -122,7 +107,7 @@ body {
   letter-spacing: 0.02em;
   text-align: center;
   text-transform: capitalize;
-  color: #2e2f42;
+  color: var(--title-text-color);
 }
 
 .team {
@@ -149,6 +134,7 @@ body {
 
 .filter {
   text-align: center;
+  list-style: none;
 }
 
 .filter-button {
@@ -163,14 +149,16 @@ body {
   cursor: pointer;
 }
 
-.work-list-example {
-  text-decoration: none;
-  color: var(--title-text-color);
-  text-decoration: none;
-}
-
 .filter-button:hover,
 .filter-button:focus {
-  color: #ffffff;
+  color: var(--white-text-color);
   background-color: #404bbf;
 }
+
+.work-list-example {
+  color: var(--title-text-color);
+  text-decoration: none;
+  list-style: none;
+}
+
+
